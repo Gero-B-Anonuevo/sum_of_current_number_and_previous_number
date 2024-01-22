@@ -6,6 +6,7 @@ previous_number = 1
 #make the range function
 for num in range(1, 10):
     sum = num + previous_number
+    print(previous_number, num, sum)
     #overwrite previous number to keep the process going
     previous_number = num
-    print(previous_number, num, sum)
+    
