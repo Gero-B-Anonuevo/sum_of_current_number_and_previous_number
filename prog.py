@@ -8,5 +8,4 @@ for num in range(1, 10):
     sum = num + previous_number
     #overwrite previous number to keep the process going
     previous_number = num
-    
-print(previous_number, num, sum)
+    print(previous_number, num, sum)
